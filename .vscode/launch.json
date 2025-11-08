@@ -1,0 +1,30 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug iOS Simulator",
+            "request": "launch",
+            "type": "reactnative",
+            "platform": "ios",
+            "target": "64BB8058-504B-48BD-AE13-93126DEB0B8B",
+            "sourceMaps": true,
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "name": "Debug Android",
+            "request": "launch",
+            "type": "reactnative",
+            "platform": "android",
+            "sourceMaps": true,
+            "target": "emulator",
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "name": "Attach to Packager",
+            "request": "attach",
+            "type": "reactnative",
+            "sourceMaps": true,
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
